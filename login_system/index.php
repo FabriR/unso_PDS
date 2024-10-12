@@ -6,7 +6,7 @@ session_set_cookie_params([
     'lifetime' => 0,           // La sesión dura hasta que el navegador se cierra
     'path' => '/',
     'domain' => '',
-    'secure' => false,          // Cambia a true cuando uses HTTPS
+    'secure' => false,          // Cambia a true en HTTPS
     'httponly' => true,         // No accesible desde JavaScript
     'samesite' => 'Strict'      // Evita el envío de cookies en solicitudes de otros sitios
 ]);
@@ -17,7 +17,7 @@ session_regenerate_id(true);    // Regenera el ID de sesión para prevenir fijac
 require 'includes/db.php';
 require 'controllers/AuthController.php';
 
-// Generar un token CSRF si no existe
+// Genera un token CSRF si no existe
 if (empty($_SESSION['csrf_token'])) {
     $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
 }
