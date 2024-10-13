@@ -39,8 +39,8 @@ CREATE TABLE `users` (
 
 -- Insertar datos iniciales en la tabla de usuarios con campos adicionales
 INSERT INTO `users` (`id`, `username`, `email`, `password`, `role`, `friend_name`, `mother_name`, `nickname`, `created_at`) VALUES
-(0, 'admin', 'admin@admin.com', '$2y$10$Y0dGFGGSeYUyUv22nSRtA..UpGLdAQ3qFhi5xI.knvWsNlvVs//7u', 'admin', 'John', 'Jane', 'Johnny', '2024-10-03 00:11:59'),
-(1, 'test', 'test@test.com', '$2y$10$Y0dGFGGSeYUyUv22nSRtA..UpGLdAQ3qFhi5xI.knvWsNlvVs//7u', 'user', 'Doe', 'Mary', 'Doey', '2024-10-03 00:11:59');
+(0, 'admin', 'admin@admin.com', '$2y$10$Y0dGFGGSeYUyUv22nSRtA..UpGLdAQ3qFhi5xI.knvWsNlvVs//7u', 'admin', 'test', 'test', 'test', '2024-10-03 00:11:59'),
+(1, 'test', 'test@test.com', '$2y$10$Y0dGFGGSeYUyUv22nSRtA..UpGLdAQ3qFhi5xI.knvWsNlvVs//7u', 'user', 'test', 'test', 'test', '2024-10-03 00:11:59');
 
 -- Índices para tablas
 ALTER TABLE `access_log`
