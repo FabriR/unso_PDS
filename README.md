@@ -1,7 +1,7 @@
 # unso_PDS
 login_system
 
-https://pentesting.cat sitio para visualizar el login
+https://pentesting.cat sitio para visualizar el login, acceder unicamente con IPs de Argentina porque el waf lo bloquea otras IPs
 
 Debian:
 
