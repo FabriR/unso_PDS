@@ -10,4 +10,7 @@ Importacion de base de datos:  sudo mysql -u root -p < /ruta/del/archivo/loginsy
 Acceso a la base de datos: sudo mysql -t test -p Login12345@
 
 
-Observaciones: crear boton de retroceso en recover.php porque tira error las cookies
+Observaciones: crear boton de retroceso en recover.php porque tira error las cookies, solucionar el LFI con un .htaccess. 
+
+
+Agregar(opcional):  Content Security Policy (CSP), X-Frame-Options (Anti-Clickjacking),X-Content-Type-Options
