@@ -57,4 +57,5 @@ Sesiones Seguras: Las sesiones están configuradas con httponly, secure, y sames
 CSRF Tokens: Se generan tokens para prevenir ataques CSRF en formularios.
 
 Notas Finales
+
 Si encuentras problemas, revisa los logs de errores en logs/php-error.log. También es recomendable habilitar la depuración en un entorno de desarrollo y desactivarla en producción.
