@@ -13,5 +13,6 @@ Acceso a la base de datos: sudo mysql -t test -p Login12345@
 Observaciones: crear boton de retroceso en recover.php porque tira error las cookies, solucionar el LFI con un .htaccess. 
 
 Arreglar en las lineas el path: error_log("Too many login attempts for user: " . $username, 3, '/path/to/php-error.log'); 
+
 Agregar(opcional):  Content Security Policy (CSP), X-Frame-Options (Anti-Clickjacking),X-Content-Type-Options
 
